@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rune-Marketplace(bitcoin pump.fun)
 
-## Getting Started
+Rune marketplace imitating pump.fun of solana.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Configuration](#configuration)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Configuration
+Configuration settings are sourced from a `.env` file and a config module. Ensure you have the necessary environment variables set up in your `.env` file.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
+1. Clone the repository:
+    ```bash
+    https://github.com/taprwhiz/rune-pump-fun-fe.git
+    cd rune-pump-fun-fe
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Install the dependencies for frontend & backend:
+    ```bash
+    cd frontend(backend)
+    npm install
+    ```
 
-## Learn More
+3. Create an `.env` file and add your environment variables for backend:
+    ```plaintext
+    PORT=
+    MONGO_URI=
+    TESTNET=
+    UNISAT_TOKEN=
+    ADMIN_PAYMENT_ADDRESS=
+    ADMIN_PRIVATE_KEY=
+    BIS_KEY=
+    ```
+    You can reference .env.example file configuration.
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the server for frontend & backend:
+    ```bash
+    npm start
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
+After starting the server, the application will be running on the specified port. By default, it is set to port 5173. You can see the homepage at http://localhost:5173. You can etch the rune and can buy/sell at this website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am "Add new feature"`).
+4. Push your branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+If you have any question, please feel free contact me via Discord or Telegram.
+- Twitter - @ptcbink
+- Telegram - @ptcbink
